@@ -1,1 +1,6 @@
+{% for item in include.collection %}
+{{ item.title }} {% if item.highlight %} {{ item.highlight }} {% endif %} {% if item.desc != false %}
 
+{{ item.desc }}
+{% endif %}
+{% endfor %} 
