@@ -1,6 +1,6 @@
 ---
 layout: post
-title: polityka cookies
+title: Polityka cookies
 ---
 
 Polityka plików cookies
