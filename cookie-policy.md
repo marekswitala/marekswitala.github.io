@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: polityka cookies
+---
 
 Polityka plików cookies
 
