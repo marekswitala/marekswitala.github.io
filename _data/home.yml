@@ -18,8 +18,8 @@ project_entries:
     url: cookie-policy
     desc: Projects are shown in card layout
 
-  - title: Project 3
-    url: overview-post
+  - title: Polityka prywatności 
+    url: privacy-policy
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
