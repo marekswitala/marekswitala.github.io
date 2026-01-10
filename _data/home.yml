@@ -14,8 +14,8 @@ project_entries:
     url: o-mnie
     desc: This is an example project, configured in _data/home.yml
 
-  - title: Project 2
-    url: overview-post
+  - title: Polityka cookies
+    url: cookie-policy
     desc: Projects are shown in card layout
 
   - title: Project 3
