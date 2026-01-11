@@ -11,7 +11,7 @@ navbar_entries:
 
 project_entries:
   - title: O mnie
-    url: o-mnie
+    url: about
     desc: This is an example project, configured in _data/home.yml
 
   - title: Polityka cookies
