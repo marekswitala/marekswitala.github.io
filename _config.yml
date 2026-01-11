@@ -2,7 +2,7 @@ title: marekswitala
 author: marekswitala
 url: https://www.marekswitala.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  to jest wersja testowa
+  Strona w budowie, możliwe chwilowe przerwy w działaniu 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
@@ -32,7 +32,7 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
+    title_projects: Baza wiedzy
     title_misc_list: Details
     title_blog: Blog
     title_old_projects: Old Projects
@@ -48,3 +48,4 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
