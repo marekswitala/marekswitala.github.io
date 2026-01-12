@@ -12,6 +12,7 @@ w swoich plikach.md lub .html, ewentualnie wzbogacając o Liquid do zarządzania
 
 Umieść Obrazy: Utwórz folder images (lub inny np. assets/images) w głównym katalogu swojego projektu Jekyll i umieść tam swoje pliki graficzne (np. moj-obraz.png, logo.svg).
 
+... 
 twój-projekt/
 ├── assets/
 │   └── images/
@@ -20,6 +21,7 @@ twój-projekt/
 ├── _posts/
 │   └── 2026-01-12-wpis.md
 └── index.md
+... 
 
 Ścieżka: Pamiętaj o prawidłowej ścieżce do pliku. W Jekyllu zazwyczaj będzie to coś w stylu /images/moj-obraz.png.
 
