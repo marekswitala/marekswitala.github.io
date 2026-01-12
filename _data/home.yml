@@ -55,11 +55,11 @@ old_project_entries:
     desc: The better people know you,
 
 footer_entries:
-  - title: homepage
-    url: https://www.
+  - title: Polityka cookies
+    url: cookie-policy
 
-  - title: twitter
-    url: 
+  - title: Polityka prywatności 
+    url: privacy-policy
 
   - title: github
     url: https://github.com
