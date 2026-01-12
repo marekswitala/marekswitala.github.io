@@ -1,3 +1,12 @@
+---
+layout: post
+title: Obsydian - Obrazy w Jekyll
+tag:
+  - jekyll
+category: jekyll
+---
+
+
 Jak wstawić obrazy w jekyll?
 
 Aby wstawić obrazy w Jekyllu, umieść pliki obrazów w folderze images (lub innym zdefiniowanym w konfiguracji) w swoim projekcie, a następnie użyj składni Markdown
