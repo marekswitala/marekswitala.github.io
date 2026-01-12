@@ -1,6 +1,6 @@
 title: marekswitala
 author: marekswitala
-url: https://www.marekswitala.pl # root address of the site
+url: http://www.marekswitala.pl # root address of the site
 description: > # description of the site (multiple lines allowed)
   Strona w budowie, możliwe chwilowe przerwy w działaniu 
 permalink: /:slug
