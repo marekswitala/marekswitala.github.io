@@ -18,4 +18,4 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rouge", "~> 3.23.0"
   spec.add_runtime_dependency "webrick", "~> 1.7"
 end
-
+
