@@ -68,6 +68,7 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
         </a>
     {% endfor %}
 {%- endif -%}
+
 ```
 ```
 ```
