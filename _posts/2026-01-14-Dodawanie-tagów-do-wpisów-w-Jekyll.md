@@ -58,6 +58,7 @@ Następnym krokiem jest faktyczne wyświetlenie tego tagu na stronie wpisu. Aby 
 W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, dodaj kod liquid:
 
 ```
+
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -68,9 +69,11 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 
 ```
 
+
 Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive.html:
+
 ```
 <your_blog_url>/archive.html#<your_tag_name>. 
 ```
@@ -78,7 +81,7 @@ Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświet
 W następnej sekcji pokażę Ci, jak utworzyć  stronę wyświetlającą wszystkie tagi z wpisów na blogu.
 Tak wyglądają tagi wyświetlane we wpisie „Przyklad”:
 
-![Tak tag #przyklad, który dodałem do wpisu, wyświetla się na stronie]({{ site.marekswitala}}/images/Screenshot_20260113-212254.jpg)
+<img src="{{ '/images/Screenshot_20260113-212254.jpg' | relative_url }}" alt="Tak tag #przyklad, który dodałem do wpisu, wyświetla się na stronie">
 
 
 Oto jak tag #przyklad, który dodałem do wpisu, wyświetla się na stronie!
