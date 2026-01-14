@@ -71,7 +71,9 @@ Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive.html:
 
+---
 <your_blog_url>/archive.html#<your_tag_name>. 
+---
 
 W następnej sekcji pokażę Ci, jak utworzyć  stronę wyświetlającą wszystkie tagi z wpisów na blogu.
 Tak wyglądają tagi wyświetlane we wpisie „Przyklad”:
@@ -85,9 +87,9 @@ Archiwum tagów
 Skoro wpisy na moim blogu mają tagi, chcę, aby czytelnicy mogli je przeszukiwać i odkrywać wpisy oznaczone tym samym tagiem.
 
 W poprzednim kroku dodałem już link do 
-
+---
 <adres_url_twojego_bloga>/archive.html#<nazwa_twojego_tagu>
-
+---
 Ta strona na moim blogu powinna zawierać listę wszystkich tagów używanych na blogu, wyświetlać wszystkie wpisy z tym tagiem oraz umożliwiać zakotwiczenie i linkowanie do konkretnej nazwy tagu.
 Wyświetlać informacje (takie jak tytuł i data wpisu) dla każdego wpisu.
 
@@ -131,6 +133,7 @@ permalink: /archive.html
 
 
 Oto jak wygląda strona archiwum tagów w akcji:
+
 <img src="{{ '/images/Screenshot_20260113-212314.jpg' | relative_url }}" alt="To jest archiwum postów, w którym wpisy są uporządkowane według tagów.">
 
 To jest archiwum postów, w którym wpisy są uporządkowane według tagów.
