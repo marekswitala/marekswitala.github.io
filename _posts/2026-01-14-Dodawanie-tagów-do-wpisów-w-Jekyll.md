@@ -56,7 +56,7 @@ To jest post z tagiem :-)
 Następnym krokiem jest faktyczne wyświetlenie tego tagu na stronie wpisu. Aby to zrobić, musimy przejść do pliku szablonu (layout) używanego przez wpisy – np. post.html. 
 
 W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, dodaj kod liquid:
-
+```
 ```
 {%- if page.tags -%}
     {% for tag in page.tags %}
@@ -67,7 +67,7 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 {%- endif -%}
 
 ```
-
+```
 Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive.html:
