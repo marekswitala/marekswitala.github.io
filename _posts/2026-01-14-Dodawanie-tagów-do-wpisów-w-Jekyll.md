@@ -65,8 +65,8 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive.html:
-```
 
+```
 <your_blog_url>/archive.html#<your_tag_name>
 ```
 
@@ -93,8 +93,7 @@ Ta strona na moim blogu powinna zawierać listę wszystkich tagów używanych na
 Wyświetlać informacje (takie jak tytuł i data wpisu) dla każdego wpisu.
 
 Oto jak wygląda mój plik archive.html:
-```
-```
+
 ```
 ---
 layout: page
@@ -130,12 +129,14 @@ permalink: /archive.html
 </div>
 
 ```
-```
-```
+
+
 Oto jak wygląda strona archiwum tagów w akcji:
+
 <img src="{{ '/images/Screenshot_20260113-212314.jpg' | relative_url }}" alt="To jest archiwum postów, w którym wpisy są uporządkowane według tagów.">
 
 To jest archiwum postów, w którym wpisy są uporządkowane według tagów.
 
 Wniosek
+
 Tagi mogą być przydatnym narzędziem do łączenia wpisów na blogu i ułatwiania czytelnikom nawigacji po nim. W tym poście wyjaśniłem, jak dodawać tagi do wpisów na blogu Jekyll i jak umożliwić wyszukiwanie wpisów po tych tagach.
