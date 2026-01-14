@@ -103,7 +103,7 @@ Ta strona na moim blogu powinna zawierać listę wszystkich tagów używanych na
 Wyświetlać informacje (takie jak tytuł i data wpisu) dla każdego wpisu.
 
 Oto jak wygląda mój plik archive.html:
-
+```
 ```
 ```
 ---
@@ -141,7 +141,7 @@ permalink: /archive.html
 
 ```
 ```
-
+```
 Oto jak wygląda strona archiwum tagów w akcji:
 <img src="{{ '/images/Screenshot_20260113-212314.jpg' | relative_url }}" alt="To jest archiwum postów, w którym wpisy są uporządkowane według tagów.">
 
