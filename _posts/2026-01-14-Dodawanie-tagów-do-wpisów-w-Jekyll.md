@@ -59,17 +59,7 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 
 ```
 ```
-```
 
-{%- if page.tags -%}
-    {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
-            #{{ tag }}
-        </a>
-    {% endfor %}
-{%- endif -%}
-
-```
 ```
 ```
 Ten kod wykonuje następujące czynności:
