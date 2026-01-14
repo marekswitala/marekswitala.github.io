@@ -98,6 +98,7 @@ Wyświetlać informacje (takie jak tytuł i data wpisu) dla każdego wpisu.
 
 Oto jak wygląda mój plik archive.html:
 
+
 ```
 ---
 layout: page
