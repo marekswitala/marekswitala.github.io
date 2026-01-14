@@ -59,7 +59,7 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 
 ```
 ```
-
+<img src="{{ '/images/Screenshot_20260114-1847.png' | relative_url }}" alt="Kod liquid">
 ```
 ```
 Ten kod wykonuje następujące czynności:
