@@ -75,9 +75,8 @@ Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive_html:
 
-```
 <your_blog_url>/archive_html#<your_tag_name>. 
-```
+
 
 W następnej sekcji pokażę Ci, jak utworzyć  stronę wyświetlającą wszystkie tagi z wpisów na blogu.
 Tak wyglądają tagi wyświetlane we wpisie „Przyklad”:
@@ -91,13 +90,13 @@ Archiwum tagów
 Skoro wpisy na moim blogu mają tagi, chcę, aby czytelnicy mogli je przeszukiwać i odkrywać wpisy oznaczone tym samym tagiem.
 
 W poprzednim kroku dodałem już link do 
-```
+
 <adres_url_twojego_bloga>/archive_html#<nazwa_twojego_tagu>
-```
+
 Ta strona na moim blogu powinna zawierać listę wszystkich tagów używanych na blogu, wyświetlać wszystkie wpisy z tym tagiem oraz umożliwiać zakotwiczenie i linkowanie do konkretnej nazwy tagu.
 Wyświetlać informacje (takie jak tytuł i data wpisu) dla każdego wpisu.
 
-Oto jak wygląda mój plik archive.html:
+Oto jak wygląda mój plik archive_html:
 
 
 ```
