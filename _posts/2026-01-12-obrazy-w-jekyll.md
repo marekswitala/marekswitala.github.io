@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obsydian - Obrazy w Jekyll
+title: Obrazy w Jekyll
 tag:
   - jekyll
 category: jekyll
