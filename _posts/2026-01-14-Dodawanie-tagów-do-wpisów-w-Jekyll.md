@@ -58,15 +58,13 @@ Następnym krokiem jest faktyczne wyświetlenie tego tagu na stronie wpisu. Aby 
 W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, dodaj kod liquid:
 
 
-```
-
-{%- if page.tags -%}
+```{%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
             #{{ tag }}
         </a>
     {% endfor %}
-{%- endif -%}
+{%- endif -%}```
 
-```
+
 
