@@ -78,7 +78,7 @@ Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświet
 W następnej sekcji pokażę Ci, jak utworzyć  stronę wyświetlającą wszystkie tagi z wpisów na blogu.
 Tak wyglądają tagi wyświetlane we wpisie „Przyklad”:
 
-![Tak tag #przyklad, który dodałem do wpisu, wyświetla się na stronie({{ site.baseurl}}/images/Screenshot_20260113-212254.jpg)
+![Tak tag #przyklad, który dodałem do wpisu, wyświetla się na STRONIE]({{ site.baseurl}}/images/Screenshot_20260113-212254.jpg)
 
 
 Oto jak tag #przyklad, który dodałem do wpisu, wyświetla się na stronie!
@@ -87,9 +87,9 @@ Archiwum tagów
 Skoro wpisy na moim blogu mają tagi, chcę, aby czytelnicy mogli je przeszukiwać i odkrywać wpisy oznaczone tym samym tagiem.
 
 W poprzednim kroku dodałem już link do 
----
+```
 <adres_url_twojego_bloga>/archive.html#<nazwa_twojego_tagu>
----
+```
 Ta strona na moim blogu powinna zawierać listę wszystkich tagów używanych na blogu, wyświetlać wszystkie wpisy z tym tagiem oraz umożliwiać zakotwiczenie i linkowanie do konkretnej nazwy tagu.
 Wyświetlać informacje (takie jak tytuł i data wpisu) dla każdego wpisu.
 
