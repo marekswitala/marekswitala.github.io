@@ -18,8 +18,8 @@ layout: default
 <div>
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
-            Kategorie: <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
-            {{ tag }}
+<a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
+            Kategorie: {{ tag }}
         </a>
     {%- endif -%}
 </div>
