@@ -15,7 +15,6 @@ layout: default
     {% endfor %}
 {%- endif -%}
 <br>
-<div>
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
 <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
@@ -23,4 +22,3 @@ layout: default
         </a>
  {% endfor %}
     {%- endif -%}
-</div>
