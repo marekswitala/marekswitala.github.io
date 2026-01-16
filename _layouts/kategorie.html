@@ -4,10 +4,10 @@ layout: post
 
 {{ content }}
 
-<h2>{{ page.list_title | default: "Posts" }}</h2>
+<h2>{{ page.list_title | default: "Kategorie" }}</h2>
 <div>
   <ul>
-    {% assign page_category = page.kategorie | first %}
+    {% assign page_category = page.categories | first %}
     {% for post in site.posts %}
       {% if post.categories contains page_category %}
       <li>
