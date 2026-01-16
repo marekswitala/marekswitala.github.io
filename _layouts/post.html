@@ -16,7 +16,7 @@ layout: default
 {%- endif -%}
 <br>
 <div>
-Kategorie:
+<p>Kategorie:</p>
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
             <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
