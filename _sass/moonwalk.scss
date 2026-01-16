@@ -221,3 +221,15 @@ p code, li code {
   text-transform: lowercase;
   //border: 1px solid var(--text-secondary);
 }
+.post-cat::before {
+  content: "#";
+}
+
+.post-cat {
+  @include relative-font-size(.75);
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0px 3px;
+  margin-right: 4px;
+}
