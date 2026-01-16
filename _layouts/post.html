@@ -16,10 +16,9 @@ layout: default
 {%- endif -%}
 <br>
 <div>
-<p>Kategorie:</p>
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
-            <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
+            Kategorie: <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
             {{ tag }}
         </a>
     {%- endif -%}
