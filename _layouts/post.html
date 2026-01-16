@@ -14,3 +14,8 @@ layout: default
         </a>
     {% endfor %}
 {%- endif -%}
+{%- if page.categories.size > 0 -%}
+    {%- for tag in page.categories -%}
+    <span class="post-tag">{{ tag | capitalize }}</span>
+    {%- endfor -%}
+    {%- endif -%}
