@@ -22,9 +22,9 @@ project_entries:
     url: privacy-policy
     desc: You can control visibility from _config.yml file
 
-  - title: Project 4
+  - title: Kategorie
     url: kategorie.html
-    desc: This project uses highlight markup, configured in _data/home.yml
+    desc: Kategorie
     highlight: WIP
 
   - title: Project 5
@@ -32,7 +32,7 @@ project_entries:
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
-  - title:
+  - title:false
     url: false
     desc: false
 
