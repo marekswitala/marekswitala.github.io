@@ -2,7 +2,8 @@ title: marekswitala techblog
 author: marekswitala
 url: http://www.marekswitala.eu # root address of the site
 description: Każda wystarczająco zaawansowana technologia jest nierozróżnialna od magii.
- Arthur C. Clarke
+
+Arthur C. Clarke
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
