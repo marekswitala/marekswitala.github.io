@@ -19,7 +19,7 @@ layout: default
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
 <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
-            Kategorie: {{ tag }}
+            Kategorie:{{ tag }}
         </a>
     {%- endif -%}
 </div>
