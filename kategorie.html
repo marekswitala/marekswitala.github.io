@@ -12,7 +12,7 @@ permalink: /kategorie.html
   {% assign category_name = category | first %}
   {% assign category_name_pretty = category_name | replace: "_", " " | capitalize %}
   <div class="category-list">
-    <div id="#{{ category_name | slugize }}"></div>
+    <div id="{{ category_name | slugize }}"></div>
     <h3 class="post-list-heading line-bottom"> In #{{ category_name }}: </h3>
     <a name="{{ category_name | slugize }}"></a>
     <ul class="post-list post-list-narrow">
