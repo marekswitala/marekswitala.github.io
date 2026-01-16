@@ -16,6 +16,8 @@ layout: default
 {%- endif -%}
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
-    <span class="post-tag">{{ tag | capitalize }}</span>
+            <a href="{{site.baseurl}}/ka5egorie.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
     {%- endfor -%}
     {%- endif -%}
