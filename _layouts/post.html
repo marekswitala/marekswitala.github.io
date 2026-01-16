@@ -15,10 +15,11 @@ layout: default
     {% endfor %}
 {%- endif -%}
 <br>
+<span class="post-cat">
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
             <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
             Kategorie:{{ tag }}
         </a>
     {%- endfor -%}
-    {%- endif -%}
+    {%- endif -%}</span>
