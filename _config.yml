@@ -39,6 +39,11 @@ theme_config:
 soopr:
   publish_token: "pt_270d28a9bdeb9745c0792937070255c0" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
+collections:
+  kategorie:
+    output: true
+    permalink: /:collection/:categories:output_ext
+
 highlighter: rouge
 
 sass:
