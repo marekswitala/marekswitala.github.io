@@ -23,7 +23,7 @@ project_entries:
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
-    url: overview-post
+    url: kategorie.html
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
