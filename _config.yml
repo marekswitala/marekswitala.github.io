@@ -1,8 +1,9 @@
-title: marekswitala
+title: marekswitala techblog
 author: marekswitala
-url: http://www.marekswitala.github.io # root address of the site
+url: http://www.marekswitala.eu # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Strona w budowie, możliwe chwilowe przerwy w działaniu 
+Każda wystarczająco zaawansowana technologia jest nierozróżnialna od magii.
+ Arthur C. Clarke
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
@@ -47,4 +48,5 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-seo-tag
+  - jekyll-tagging
