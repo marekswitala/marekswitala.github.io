@@ -61,7 +61,7 @@ Aby zaimplementować kategorie we wpisach na blogu i dodać stronę która wyśw
 
 Wstaw poniższy kod na stronę lub szablon strony na której ma być wyświetlana lista kategorii
 
-<img src="{{ '/Screenshot_20260117-16185.png' | relative_url }}" alt="Kod wyświetla kategorie strony i odsyła do strony zawierającej listę kategorii">
+<img src="{{ '/images/Screenshot_20260117-16185.png' | relative_url }}" alt="Kod wyświetla kategorie strony i odsyła do strony zawierającej listę kategorii">
 
 Ten kod wykonuje następujące czynności:
 
