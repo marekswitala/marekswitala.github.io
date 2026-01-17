@@ -62,17 +62,7 @@ Aby zaimplementować kategorie we wpisach na blogu i dodać stronę która wyśw
 Wstaw poniższy kod na stronę lub szablon strony na której ma być wyświetlana lista kategorii
 
 <img src="{{ '/Screenshot_20260117-16185.png' | relative_url }}" alt="Kod wyświetla kategorie strony i odsyła do strony zawierającej listę kategorii">
-```
 
-<h3>Post w kategorii(ach):</h3>
-{%- if page.categories.size > 0 -%}
-    {%- for tag in page.categories -%}
-<a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
-            {{ tag }}
-        </a>
- {% endfor %}
-{%- endif -%}
-```
 Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie  kategorie zapisane w aktualnym wpisie, dla każdej wyświetla nazwę. Dodatkowo łączy każdą kategorie ze stroną 
