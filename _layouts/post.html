@@ -6,7 +6,7 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
 {% include date_and_social_share.html %}
 {{ content }}
-
+<h3>Tagi:</h3>
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -15,7 +15,7 @@ layout: default
     {% endfor %}
 {%- endif -%}
 <br>
-<p>Kategorie:</p>
+<h3>Post w kategorii(ach):</h3>
 {%- if page.categories.size > 0 -%}
     {%- for tag in page.categories -%}
 <a href="{{site.baseurl}}/kategorie.html#{{tag | slugize}}">
