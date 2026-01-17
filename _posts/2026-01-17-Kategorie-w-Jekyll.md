@@ -67,7 +67,7 @@ Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie  kategorie zapisane w aktualnym wpisie, dla każdej wyświetla nazwę. Dodatkowo łączy każdą kategorie ze stroną 
 ```
-Kategorie.html
+kategorie.html
 ```
 
 Strona przeglądu kategorii
@@ -116,8 +116,12 @@ Wyszukuje po wszystkich wpisach kategorii i wyświetla kategorie i tytuł wpisu 
 Dodawanie kategorii do wpisów
 
 Ostatnim krokiem jest dodanie wpisów do nowej kategorii. Istnieją dwa sposoby:
+- dodawanie za pomocą katalogu i surowych plików md:
 
-- Jekyll Frontmatter: można dodawać kategorie do wpisów za pomocą klawiszy category frontmatter w samym wpisie, w ten sposób.
+```
+/kategoria/_post/2026-01-16-nazwa_pliku.md
+```
+- Jekyll Frontmatter: można dodawać kategorie do wpisów za pomocą kluczy *category* frontmatter w samym wpisie, w ten sposób:
 ```
 
 ---
