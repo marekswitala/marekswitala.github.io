@@ -9,7 +9,6 @@ tags:
 categories: 
 - jekyll
 - markdown
-
 ---
 
 Dodawanie tagów do wpisów na blogu Jekyll
