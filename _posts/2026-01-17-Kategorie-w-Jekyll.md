@@ -121,9 +121,10 @@ Ostatnim krokiem jest dodanie wpisów do nowej kategorii. Istnieją dwa sposoby:
 ```
 /kategoria/_post/2026-01-16-nazwa_pliku.md
 ```
-- Jekyll Frontmatter: można dodawać kategorie do wpisów za pomocą kluczy *category* frontmatter w samym wpisie, w ten sposób:
-```
 
+- Jekyll Frontmatter: można dodawać kategorie do wpisów za pomocą kluczy *category* frontmatter w samym wpisie, w ten sposób:
+
+```
 ---
 layout: post
 title: "Przyklad"
@@ -132,6 +133,7 @@ category: jekyll
 Cześć świecie!
 
 To jest post z kategorią :-)
+
 ```
 
 
