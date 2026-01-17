@@ -29,11 +29,8 @@
     {% endfor %}
   </div>
 {% endif %}
-<ul>
+<br>
   {% for category in site.categories %}
-    <li>
       <a href="{{ category | url_escape | prepend: '/kategoria/' | append: '/' }}">{{ category }}</a>
       (Liczba postów: {{ site.categories[category].size }})
-    </li>
   {% endfor %}
-</ul>
