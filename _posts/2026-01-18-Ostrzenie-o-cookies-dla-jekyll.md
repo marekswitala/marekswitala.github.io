@@ -28,10 +28,5 @@ Krok 1. Stwórz plik cookie-consent.html w katalogu „_includes” swojego proj
 
 Krok 2. Upewnij się, że dolna część dokumentu układu wygląda następująco:
 
-```
+<img src="{{ '/images/Screenshot_2026011.jpg' | relative_url }}" alt="Dodawanie kodu do szablonu strony ">
 
-...
-{% include cookie-consent.html %}
-</body>
-</html>
-```
