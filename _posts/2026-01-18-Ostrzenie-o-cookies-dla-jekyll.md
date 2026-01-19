@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ostrzenie o cookies dla Jekyll
+title: Ostrzeżnie o cookies dla Jekyll
 tags:
   - jekyll
   - cookies
