@@ -12,25 +12,25 @@ navbar_entries:
 project_entries:
   - title: Archiwum tagów
     url: archive.html
-    desc: Posty grupowanie według tagów
+    desc: Posty, grupowanie według tagów
 
   - title: Polityka cookies
     url: cookie-policy
-    desc: Projects are shown in card layout
+    desc: Polityka cookies
 
   - title: Polityka prywatności 
     url: privacy-policy
-    desc: You can control visibility from _config.yml file
+    desc: Polityka prywatności
 
   - title: Kategorie
     url: kategorie.html
-    desc: Kategorie
+    desc: Posty, grupowanie według kategorii
     highlight: WIP
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: 
+    url: 
+    desc: 
+    highlight: 
 
   - title:
     url: false
@@ -88,7 +88,7 @@ misc_entries:
         url: https://github.com
 
       - title: originally built for homepage
-        url: https://marekswitala.github.io
+        url: https://marekswitala.eu
 
       - title: this list is scalable and can be nested
         url: false
