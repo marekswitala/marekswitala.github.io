@@ -1,8 +1,7 @@
 title: marekswitala techblog
 author: marekswitala
 url: https://www.marekswitala.eu # root address of the site
-description: Każda wystarczająco zaawansowana technologia jest nierozróżnialna od magii.<br> Arthur C. Clarke<br>
-Blog jest hostowany na platformie Github Pages, z wykorzystaniem biblioteki Jekyll.
+description: Każda wystarczająco zaawansowana technologia jest nierozróżnialna od magii.<br> Arthur C. Clarke
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
