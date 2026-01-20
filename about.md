@@ -3,6 +3,9 @@ layout: post
 title: O mnie
 ---
 
-This is an example page!
+Jestem entuzjastą technologii i komputerów. Windows z konieczności, Linux z wyboru. Majsterkowicz i stolarz amator. Maniakalny kolekcjoner elektronarzędzi Parkside.
 
-Actually, it has the same layout of a post...
+Uwielbiam kreatywnie podchodzić do problemów i je rozwiązywać.
+Na tym blogu dzielę moimi osobistymi doświadczeniami.
+
+Blog jest hostowany na platformie Github Pages, z wykorzystaniem biblioteki Jekyll. 
