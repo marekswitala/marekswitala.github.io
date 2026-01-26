@@ -3,7 +3,7 @@ layout: post
 title: Obsidian synchronizacja notatek pomiędzy urządzeniami
 tags:
   - osidian
-  -synchronizacja 
+  - synchronizacja 
 categories:
 - obsidian
 ---
