@@ -9,5 +9,3 @@ Uwielbiam kreatywnie podchodzić do problemów i je rozwiązywać.
 Na tym blogu dzielę moimi osobistymi doświadczeniami.
 
 Blog jest hostowany na platformie Github Pages, z wykorzystaniem biblioteki Jekyll. 
-
-{% include social-media-links.html %}
