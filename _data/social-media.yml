@@ -2,7 +2,7 @@ email:
   id: 'switalamarek@gmail.com'
   href: 'mailto:'
   title: 'Email'
-  icon: 'mail'
+  icon: '/assets/images/favicon/mail.svg'
 
 facebook:
   id: 'your-facebook-username'
