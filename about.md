@@ -10,4 +10,4 @@ Na tym blogu dzielę moimi osobistymi doświadczeniami.
 
 Blog jest hostowany na platformie Github Pages, z wykorzystaniem biblioteki Jekyll. 
 
-<a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me">Napisz do <i class="icon mail"></i> </a>
+<a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me">Napisz do mnie <i class="icon /assets/images/favicon/mail.svg"></i> </a>
