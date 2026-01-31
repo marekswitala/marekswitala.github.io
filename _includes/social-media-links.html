@@ -1,11 +1,15 @@
-{% if site.data.social-media %}
-<div id="social-media">
-    {% assign sm = site.data.social-media %}
-    {% for entry in sm %}
-        {% assign key = entry | first %}
-        {% if sm[key].id %}
-            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
-        {% endif %}
-    {% endfor %}
-</div>
-{% endif %}
+ <ul class= 'social-media'>
+   <li>
+    <a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me"><img src="/assets/images/favicon/mail.svg" alt="mail" width="32" height="32"></a>
+    </li>
+    <li>
+<a  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Facebook" ><img src="/assets/images/favicon/facebook.svg" alt="facebook" width="32" height="32"></a>  
+    </li>
+    <li>
+<a  href="whatsapp://send?text={{ page.title }} ~ {{ site.url }}{{ site.baseurl }}{{ page.url }}" 
+             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="whatsApp" ><img src="/assets/images/favicon/whatsapp.svg" alt="whatsapp" width="32" height="32"></a>
+    </li>    
+</ul>
