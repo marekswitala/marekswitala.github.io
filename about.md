@@ -20,7 +20,4 @@ Blog jest hostowany na platformie Github Pages, z wykorzystaniem biblioteki Jeky
 <li>
 <a href="{{ site.data.social-media.instagram.href }}{{ site.data.social-media.instagram.id }}" title="Instagram"><img src="/assets/images/favicon/instagram.svg" alt="instagram" width="32" height="32"></a>  
     </li>
-<li>
-<a href="{{ site.data.social-media.whatsapp.href }}{{ site.data.social-media.whatsapp.id }}" title="WhatsApp"><img src="/assets/images/favicon/whatsapp.svg" alt="whatsapp" width="32" height="32"></a>  
-    </li>
 </ul>
