@@ -1,0 +1,18 @@
+ul.social-media {
+  display: flex;
+  //justify-content: space-between;
+  margin-top: 0em;
+  margin-left: -40px;
+  flex-wrap: wrap;
+
+  li {
+    display:inline;
+    margin-right: 1em;
+  }
+
+  li a {
+    text-decoration: none;
+    font-weight: normal
+  }
+
+}
