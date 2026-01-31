@@ -21,3 +21,13 @@ github:
   href: 'https://github.com/'
   title: 'GitHub'
   fa-icon: 'fa-github-square'
+instagram:
+  id: 'marekswitala'
+  href: 'https://www.intagram.com'
+  title: 'Instagram'
+
+ whatsapp:
+id: 'Marek Świtała' 
+href: 'https://www.whatsapp.com'
+title: 'WhatsApp'
+tiltle: ''whatsApp'
