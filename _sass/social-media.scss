@@ -1,10 +1,14 @@
 ul.social-media {
   display: flex;
-  //justify-content: space-between;
-  margin-top: 0em;
-  margin-left: -40px;
-  flex-wrap: wrap;
+  list-style-type: none; /* Usuwa kropki */
+  padding: 0;
+  margin: 0;
+  justify-content: center; /* Wyśrodkowanie elementów */
+}
 
+ul.social-media li {
+  margin: 0 15px; /* Odstępy między elementami */
+}
   li {
     display:inline;
     margin-right: 1em;
@@ -14,5 +18,3 @@ ul.social-media {
     text-decoration: none;
     font-weight: normal
   }
-
-}
