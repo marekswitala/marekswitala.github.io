@@ -1,3 +1,26 @@
+<style>
+ul.social-media {
+  display: flex;
+  list-style-type: none; /* Usuwa kropki */
+  padding: 0;
+  margin: 0;
+  justify-content: center; /* Wyśrodkowanie elementów */
+}
+
+ul.social-media li {
+  margin: 0 15px; /* Odstępy między elementami */
+}
+  li {
+    display:inline;
+    margin-right: 1em;
+  }
+
+  li a {
+    text-decoration: none;
+    font-weight: normal
+  }
+</style>
+
  <ul class= "social-media">
    <li>
     <a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me"><img src="/assets/images/favicon/mail.svg" alt="mail" width="32" height="32"></a>
