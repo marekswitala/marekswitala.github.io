@@ -105,7 +105,6 @@ Wstaw kod html i css w miejsce gdzie chcesz wyświetlać ikony odsyłające do t
 Możesz również umieścić kod css i html w jednym pliku np. social-media.html w katalogu  _includes 
 A następnie przy pomocy:
 ```
-{% xxxx social-media.html %}
 
 ```
 Umieszczonego w szablonie strony, użyć w całej witrynie. 
