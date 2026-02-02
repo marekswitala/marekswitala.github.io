@@ -104,8 +104,8 @@ Kod html:
 Wstaw kod html i css w miejsce gdzie chcesz wyświetlać ikony odsyłające do twoich mediów społecznościowych np. w stopce strony.
 Możesz również umieścić kod css i html w jednym pliku np. social-media.html w katalogu  _includes 
 A następnie przy pomocy:
-```
 
-```
+<img src="{{ '/images/Screenshot_20260202-1.png' | relative_url }}" alt="social-media" >
+
 Umieszczonego w szablonie strony, użyć w całej witrynie. 
 
