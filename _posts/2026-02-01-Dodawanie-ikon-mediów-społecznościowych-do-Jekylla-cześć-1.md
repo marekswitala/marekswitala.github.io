@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dodawanie ikon mediów społecznościowych do Jekylla cześć 1
+title: Dodawanie ikon mediów społecznościowych do Jekylla część 1
 tags:
   - jekyll
   - html
@@ -9,7 +9,7 @@ categories:
 - jekyll
 --- 
 
-Dodawanie ikon mediów społecznościowych do Jekylla cześć 1
+Dodawanie ikon mediów społecznościowych do Jekylla część 1
 
  Jeśli chcesz podzielić się swoją działalnością w mediach społecznościowych lub po prostu ułatwić kontakt z tobą za ich pomocą możesz to zrobić umieszczajac na stronie ikony odsyłające do twoich profili. 
  
