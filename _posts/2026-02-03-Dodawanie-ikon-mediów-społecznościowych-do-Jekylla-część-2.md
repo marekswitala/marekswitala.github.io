@@ -102,7 +102,7 @@ Kod html:
 
 
 Umieścić kod css i html w jednym pliku np. social-media.html w katalogu  _includes 
-A następnie przy pomocy kodu umieszczonego w szablonie strony, użyć w całej witrynie :
+A następnie przy pomocy kodu umieszczonego w szablonie strony, możesz użyć go w całej witrynie:
 
 <img src="{{ '/images/Screenshot_20260202-1.png' | relative_url }}" alt="social-media" >
 
