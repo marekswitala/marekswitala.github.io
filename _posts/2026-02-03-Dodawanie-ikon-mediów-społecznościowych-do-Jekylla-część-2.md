@@ -11,31 +11,38 @@ categories:
 
 Dodawanie ikon mediów społecznościowych do Jekylla część 2
 
-W części pierwszej prezentowałem sposób na udostępnienie własnych mediów społecznościowych, podobnie można wykonać pasek ikon umożliwiający udostępnienie danej strony/wpisu za pomocą social mediów.
+W części pierwszej prezentowałem sposób na udostępnienie własnych mediów społecznościowych, podobnie można wykonać pasek ikon umożliwiający udostępnienie  danej strony/wpisu za pomocą social mediów. 
 Podobnie jak w cześci pierwszej będziesz potrzebować ikon, więc jeśli jeszcze nie przygotowałeś(aś) plików ikon zrób to teraz i umieść je w odpowiednim katalogu twojej strony np. :
-
+```
 /assets/images/favicon/
 
+```
 Pamiętaj żeby zastosować właściwą ścieżkę w kodzie html:
-
+```
 <img src="/twoja ścieżka/mail.svg" alt="mail" width="32" height="32">
+```
 Pliki darmowych ikon znajdziesz na przykład tutaj:
 
-Feather – Simply beautiful open source icons
+Feather – Simply beautiful open source icons 
 
-Feather – Simply beautiful open source icons
+<a href="https://feathericons.com/">Feather – Simply beautiful open source icons</a>
 
-Teraz potrzebujemy kodu html i css, który umożliwia wyświetlanie ikon jako odsyłaczy w formie poziomej belki/menu.
+Teraz potrzebujemy kodu html i css, który umożliwia wyświetlanie ikon jako odsyłaczy w formie poziomej belki/menu. 
 Kod css:
-
+```
 Przygotuj pliki ikon i umieść je w odpowiednim katalogu twojej strony np. :
+```
 /assets/images/favicon/
 
+```
 Pamiętaj żeby zastosować właściwą ścieżkę w kodzie html:
-mail
-Teraz potrzebujemy kodu html i css, który umożliwia wyświetlanie ikon jako odsyłaczy w formie poziomej belki/menu.
+```
+<img src="/twoja ścieżka/mail.svg" alt="mail" width="32" height="32">
+
+Teraz potrzebujemy kodu html i css, który umożliwia wyświetlanie ikon jako odsyłaczy w formie poziomej belki/menu. 
 Kod css:
 
+```
 <style>
 ul.social-media {
   display: flex;
@@ -58,8 +65,11 @@ ul.social-media li {
     font-weight: normal
   }
 </style>
+```
+
 Kod html:
 
+```
 <ul class="social-media">
 <li>   
 <a  href="mailto:?subject=&amp;body=Coś do przeczytania: {{ site.url}}{{ page.url }}" title="Wyślij"><img src="/assets/images/favicon/mail.svg" alt="email" width="32" height="32"></a>     
@@ -91,7 +101,11 @@ Kod html:
         </a>
         </li>
         </ul>
-Umieścić kod css i html w jednym pliku np. social-media.html w katalogu _includes
+```
+
+
+Umieścić kod css i html w jednym pliku np. social-media.html w katalogu  _includes 
 A następnie przy pomocy kodu umieszczonego w szablonie strony, użyć w całej witrynie :
 
-social-media
+<img src="{{ '/images/Screenshot_20260202-1.png' | relative_url }}" alt="social-media" >
+
