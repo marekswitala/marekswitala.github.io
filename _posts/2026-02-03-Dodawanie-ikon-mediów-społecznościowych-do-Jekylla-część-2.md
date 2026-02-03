@@ -27,9 +27,6 @@ Feather – Simply beautiful open source icons
 
 <a href="https://feathericons.com/">Feather – Simply beautiful open source icons</a>
 
-Teraz potrzebujemy kodu html i css, który umożliwia wyświetlanie ikon jako odsyłaczy w formie poziomej belki/menu. 
-Kod css:
-```
 Przygotuj pliki ikon i umieść je w odpowiednim katalogu twojej strony np. :
 ```
 /assets/images/favicon/
@@ -38,7 +35,7 @@ Przygotuj pliki ikon i umieść je w odpowiednim katalogu twojej strony np. :
 Pamiętaj żeby zastosować właściwą ścieżkę w kodzie html:
 ```
 <img src="/twoja ścieżka/mail.svg" alt="mail" width="32" height="32">
-
+```
 Teraz potrzebujemy kodu html i css, który umożliwia wyświetlanie ikon jako odsyłaczy w formie poziomej belki/menu. 
 Kod css:
 
