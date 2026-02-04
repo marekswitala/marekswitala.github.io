@@ -42,11 +42,11 @@ Przyklad:
 </html>
 ```
 
-<i class="fas fa-cloud"></i>  
-<i class="fas fa-heart"></i>  
-<i class="fas fa-car"></i>  
-<i class="fas fa-file"></i>  
-<i class="fas fa-bars"></i>  
+<i class="fa-cloud"></i>  
+<i class="fa-heart"></i>  
+<i class="fa-car"></i>  
+<i class="fa-file"></i>  
+<i class="fa-bars"></i>  
 
 
 Ikony Bootstrap:
