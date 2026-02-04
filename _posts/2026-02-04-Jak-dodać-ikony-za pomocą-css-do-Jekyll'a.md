@@ -19,7 +19,7 @@ Wszystkie ikony w poniższych bibliotekach ikon to skalowalne wektory, które mo
 Wszystkie trzy biblioteki mogą być stosowane obok siebie, ale mogą wpływać na css motywu (theme) jekyll, w razie konfliktu radzę zrezygnować z danej biblioteki, w moim przypadku ikony Bootstrap powodowały zmianę kolorów motywu. Aby użyć ikon z bibliotek, należy wstawić odpowiedni kod do sekcji <head> swojej strony HTML
 
 Ikony Font Awesome:
-Przejdź do <a href="fontawesome.com">fontawesome.com</a>, załóż darmowe konto, zaloguj się i pobierz kod:
+Przejdź do <a href="https://www.fontawesome.com">fontawesome.com</a>, załóż darmowe konto, zaloguj się i pobierz kod:
 
 ```
 <script src="https://kit.fontawesome.com/_twój_kod_.js" crossorigin="anonymous"></script>
