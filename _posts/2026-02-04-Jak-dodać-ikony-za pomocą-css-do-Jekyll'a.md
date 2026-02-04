@@ -86,7 +86,7 @@ Przykład:
 <i class="material-icons">attachment</i>
 <i class="material-icons">computer</i>
 <i class="material-icons">traffic</i>
-<p>Ikony Google (różne rozmiaty i kolory):</p>
+<p>Ikony Google (różne rozmiary i kolory):</p>
 <i class="material-icons" style="font-size:24px;">cloud</i>
 <i class="material-icons" style="font-size:36px;">cloud</i>
 <i class="material-icons" style="font-size:48px;color:red;">cloud</i>
