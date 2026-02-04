@@ -42,8 +42,8 @@ Przyklad:
 </html>
 ```
 
-<i class="fa-cloud"></i>  
-<i class="fa-heart"></i>  
+<i class="fa-solid fa-cloud"></i>  
+<i class="fa-solid fa-heart"></i>  
 <i class="fa-car"></i>  
 <i class="fa-file"></i>  
 <i class="fa-bars"></i>  
