@@ -86,3 +86,8 @@ Przykład:
 <i class="material-icons">attachment</i>
 <i class="material-icons">computer</i>
 <i class="material-icons">traffic</i>
+<p>Styled Google icons (size and color):</p>
+<i class="material-icons" style="font-size:24px;">cloud</i>
+<i class="material-icons" style="font-size:36px;">cloud</i>
+<i class="material-icons" style="font-size:48px;color:red;">cloud</i>
+<i class="material-icons" style="font-size:60px;color:lightblue;">cloud</i>
