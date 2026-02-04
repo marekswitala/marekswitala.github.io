@@ -41,17 +41,18 @@ Przyklad:
 </body>  
 </html>
 ```
-<script src="https://kit.fontawesome.com/4fe17d9093.js" crossorigin="anonymous"></script>  
-
+<script src="https://kit.fontawesome.com/4fe17d9093.js" crossorigin="anonymous">
 <i class="fas fa-cloud"></i>  
 <i class="fas fa-heart"></i>  
 <i class="fas fa-car"></i>  
 <i class="fas fa-file"></i>  
 <i class="fas fa-bars"></i>  
+</script>  
+
 
 Ikony Bootstrap:
 ```
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
 
 ```
 Przyklad:
