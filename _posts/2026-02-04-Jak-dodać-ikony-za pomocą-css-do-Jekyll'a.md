@@ -16,7 +16,7 @@ Uwaga: Nie ma potrzeby pobierania ani instalowania!
 
 Dodaj nazwę określonej klasy ikony do dowolnego elementu HTML (np. <i> lub <span>).
 Wszystkie ikony w poniższych bibliotekach ikon to skalowalne wektory, które można dostosować za pomocą CSS (rozmiar, kolor, cień itp.). 
-Wszystkie trzy biblioteki mogą być stosowane obok siebie. Aby użyć ikon z bibliotek, należy wstawić odpowiedni kod do sekcji <head> swojej strony HTML
+Wszystkie trzy biblioteki mogą być stosowane obok siebie, ale mogą wpływać na css motywu (theme) jekyll, w razie konfliktu radzę zrezygnować z danej biblioteki, w moim przypadku ikony Bootstrap powodowały zmianę kolorów motywu. Aby użyć ikon z bibliotek, należy wstawić odpowiedni kod do sekcji <head> swojej strony HTML
 
 Ikony Font Awesome:
 Przejdź do <a href="fontawesome.com">fontawesome.com</a>, załóż darmowe konto, zaloguj się i pobierz kod:
@@ -86,7 +86,7 @@ Przykład:
 <i class="material-icons">attachment</i>
 <i class="material-icons">computer</i>
 <i class="material-icons">traffic</i>
-<p>Styled Google icons (size and color):</p>
+<p>Ikony Google (różne rozmiaty i kolory):</p>
 <i class="material-icons" style="font-size:24px;">cloud</i>
 <i class="material-icons" style="font-size:36px;">cloud</i>
 <i class="material-icons" style="font-size:48px;color:red;">cloud</i>
