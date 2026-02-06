@@ -70,12 +70,10 @@ footer_entries:
 misc_entries:
     - title: Archiwum tagów
     url: archive.html
-    desc: Posty, grupowanie według tagów
 
   - title: Kategorie
     url: kategorie.html
-    desc: Posty, grupowanie według kategorii
-
+    
   - title: and you can add data in _data/home.yml
     url: false
 
