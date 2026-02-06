@@ -67,7 +67,7 @@ footer_entries:
     url: feed.xml
 
 misc_entries:
-    - title: this is an example vertical list
+  - title: this is an example vertical list
     url: false
 
   - title: you can show or hide using a boolean flag in _config.yml
