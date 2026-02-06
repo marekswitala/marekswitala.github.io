@@ -68,12 +68,6 @@ footer_entries:
     url: feed.xml
 
 misc_entries:
-    - title: Archiwum tagów
-    url: archive
-
-  - title: Kategorie
-    url: kategorie
-    
   - title: and you can add data in _data/home.yml
     url: false
 
@@ -82,13 +76,13 @@ misc_entries:
     url: false
 
   - title: on the Internet
-    url: false
+    url: true
     entries:
-      - title: on Github
-        url: https://github.com
+     - title: Archiwum tagów
+    url: archive.html
 
-      - title: originally built for homepage
-        url: https://marekswitala.eu
+     - title: Kategorie
+    url: kategorie.html
 
       - title: this list is scalable and can be nested
         url: false
