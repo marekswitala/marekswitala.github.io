@@ -80,7 +80,6 @@ misc_entries:
     entries:
      - title: Archiwum tagów
     url: archive.html
-
      - title: Kategorie
     url: kategorie.html
 
