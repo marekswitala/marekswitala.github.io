@@ -75,8 +75,8 @@ misc_entries:
     post_list: true
     url: false
 
-  - title: on the Internet
-    url: true
+  - title: na stronie:
+    url: false
     entries:
      - title: Archiwum tagów
     url: archive.html
