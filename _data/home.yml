@@ -84,11 +84,11 @@ misc_entries:
     url: kategorie.html
 
   - title: this list is scalable and can be nested
-        url: false
-        entries:
-          - title: this is nested inside a nested list
+    url: false
+    entries:
+    - title: this is nested inside a nested list
 
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
+   - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
 
 
