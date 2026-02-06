@@ -75,14 +75,6 @@ misc_entries:
     post_list: true
     url: false
 
-  - title: Na stronie...
-    url: false
-    entries:
-  - title: Archiwum tagów
-    url: archive.html
-  - title: Kategorie
-    url: kategorie.html
-
       - title: this list is scalable and can be nested
         url: false
         entries:
