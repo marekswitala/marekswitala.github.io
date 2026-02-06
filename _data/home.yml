@@ -70,24 +70,19 @@ footer_entries:
 misc_entries:
   - title: and you can add data in _data/home.yml
     url: false
-  - title: Archiwum tagów
-    url: archive.html
-
-- title: Kategorie
-    url: kategorie.html
-
+  
   - title: Blog posts
     post_list: true
     url: false
 
-  - title: on the Internet
+  - title: na stronie
     url: false
     entries:
-      - title: on Github
-        url: false
+      - title: Archiwum tagów
+    url: archive.html
 
-      - title: originally built for homepage
-        url: false
+- title: Kategorie
+    url: kategorie.html
 
       - title: this list is scalable and can be nested
         url: false
