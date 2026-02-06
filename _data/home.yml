@@ -84,10 +84,10 @@ misc_entries:
     url: false
     entries:
   - title:
-    url:
+    url: false
 
   - title:
-    url:
+    url: false
 
   - title: this list is scalable and can be nested
     url: false
