@@ -1,3 +1,4 @@
+
 navbar_entries:
   - title: O mnie
     url: about
@@ -76,25 +77,24 @@ misc_entries:
   - title: and you can add data in _data/home.yml
     url: false
 
- - title: Blog posts
+  - title: Blog posts
     post_list: true
     url: false
 
-  - title: na stronie
+  - title: on the Internet
     url: false
     entries:
-  - title:
-    url: false
+      - title: on Github
+        url: https://github.com
 
-  - title:
-    url: false
+      - title: originally built for homepage
+        url: https://marekswitala.eu
 
-  - title: this list is scalable and can be nested
-    url: false
-    entries:
-    - title: this is nested inside a nested list
-
-   - title: it is easy to use, see _data/home.yml to see how to configure it.
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
             url: false
 
-
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
