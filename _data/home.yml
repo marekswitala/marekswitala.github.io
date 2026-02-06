@@ -77,7 +77,7 @@ misc_entries:
   - title: na stronie
     url: false
     entries:
-      - title: Archiwum tagów
+  - title: Archiwum tagów
     url: archive.html
 
   - title: Kategorie
