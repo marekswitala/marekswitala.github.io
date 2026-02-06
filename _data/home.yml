@@ -75,7 +75,7 @@ misc_entries:
     post_list: true
     url: false
 
-  - title: na stronie:
+  - title: Na stronie...
     url: false
     entries:
      - title: Archiwum tagów
