@@ -83,7 +83,7 @@ misc_entries:
   - title: Kategorie
     url: kategorie.html
 
-      - title: this list is scalable and can be nested
+  - title: this list is scalable and can be nested
         url: false
         entries:
           - title: this is nested inside a nested list
