@@ -70,6 +70,11 @@ footer_entries:
 misc_entries:
   - title: and you can add data in _data/home.yml
     url: false
+  - title: Archiwum tagów
+    url: archive.html
+
+- title: Kategorie
+    url: kategorie.html
 
   - title: Blog posts
     post_list: true
