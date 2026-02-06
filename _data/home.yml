@@ -79,10 +79,10 @@ misc_entries:
     url: false
     entries:
       - title: on Github
-        url: https://github.com/
+        url: false
 
       - title: originally built for homepage
-        url: 
+        url: false
 
       - title: this list is scalable and can be nested
         url: false
