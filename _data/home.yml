@@ -77,11 +77,11 @@ misc_entries:
   - title: na stronie
     url: false
     entries:
-  - title: Archiwum tagów
-    url: archive.html
+  - title:
+    url:
 
-  - title: Kategorie
-    url: kategorie.html
+  - title:
+    url:
 
   - title: this list is scalable and can be nested
     url: false
