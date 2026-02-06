@@ -75,7 +75,7 @@ misc_entries:
     post_list: true
     url: false
 
-        - title: on the Internet
+  - title: on the Internet
     url: false
     entries:
       - title: on Github
