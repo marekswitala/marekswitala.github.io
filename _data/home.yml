@@ -74,7 +74,8 @@ misc_entries:
   - title: you can show or hide using a boolean flag in _config.yml
     url: false
 
-  - title: and you can add data in _data/home.yml
+  - title: Kategorie
+category_list: true
     url: false
 
   - title: Blog posts
