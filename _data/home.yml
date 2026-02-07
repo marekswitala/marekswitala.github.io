@@ -75,7 +75,7 @@ misc_entries:
     url: false
 
   - title: Kategorie
-category_list: true
+    category_list: true
     url: false
 
   - title: Blog posts
