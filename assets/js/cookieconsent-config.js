@@ -33,7 +33,7 @@ CookieConsent.run({
             en: {
                 consentModal: {
                     title: "Używamy plików cookie! ",
-                    description: "Możemy je zamieścić w celu analizy danych dotyczących odwiedzających, ulepszenia naszej strony internetowej, pokazania spersonalizowanych treści i zapewnienia Państwu wspaniałego doświadczenia na stronie internetowej. Aby uzyskać więcej informacji na temat plików cookie, których używamy, otwórz ustawienia.\n\nDane są gromadzone w celu personalizacji reklam i pomiaru skuteczności kampanii reklamowych. Dane mogą być udostępniane Google LLC,",
+                    description: "Możemy je zamieścić w celu analizy danych dotyczących odwiedzających, ulepszenia naszej strony internetowej, pokazania spersonalizowanych treści i zapewnienia Państwu wspaniałego doświadczenia na stronie internetowej. Aby uzyskać więcej informacji na temat plików cookie, których używamy, otwórz ustawienia. Pliki cookie i skrypty używane są dla poprawy funkcjonowania strony oraz analizowania ruchu na stronie.",
                     closeIconLabel: "",
                     acceptAllBtn: "Zaakceptuj wszystko ",
                     acceptNecessaryBtn: "Odrzuć wszystko",
