@@ -9,19 +9,20 @@ categories:
 - jekyll
 ---
 
-
-Używam na stronie plików cookie i skryptów javascript, głównie do śledzenia ruchu i usprawnienia działania strony. Zgodnie z wymogami UE konieczne jest wyświetlenie informacji o tym.
-Metoda z Jekyll Codex działała nie do końca z moim oczekiwaniem. Ta strona działa w ramach Github Pages i jest generowana bezpośrednio na github co ogranicza stosowanie wtyczek/plugins. Podstawowe założeniem było wdrożyć cookie monit w miarę prosto.
+Używam na stronie plików cookie i skryptów javascript, głównie do śledzenia ruchu i usprawnienia działania strony. Zgodnie z wymogami UE konieczne jest wyświetlenie informacji o tym. 
+Metoda z   <a href="https://jekyllcodex.org/without-plugin/cookie-consent/">Jekyll Codex</a>  działała nie do końca z moim oczekiwaniem. Ta strona działa w ramach Github Pages i jest generowana bezpośrednio na github co ogranicza stosowanie wtyczek/plugins. Podstawowe założeniem było wdrożyć cookie monit w miarę prosto. 
 
 Instalacja
 Krok 1.
 Wygeneruj własny plik javascript cookieconsent-config.js przy pomocy:
-CookieConsent v3.1.0
-Skopiuj cookieconsent-config.js do katalogu swojego projektu:
-
+<a href="https://playground.cookieconsent.orestbida.com/">CookieConsent v3.1.0</a>
+Skopiuj  cookieconsent-config.js do katalogu swojego projektu:
+```
 assets/js/
+```
 Możesz użyć kodu, który wygenerowałem na potrzeby tej strony:
 
+```
 import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js';
 
 // Enable dark mode
@@ -88,21 +89,27 @@ CookieConsent.run({
         }
     }
 });
+```
+
 Mój skrypt wykorzystuje odwołania do polityki prywatności i polityki cookies:
 
+```
 <a href=\"/privacy-policy.html\">Polityka prywatności</a>\n<a href=\"/cookie-policy.html\">Polityka cookies</a>"
 
+```
 Utwórz takie pliki html lub usuń ten fragment kodu
 
-Krok 2.
+Krok 2. 
 
-Dodaj link z odpowiednią ścieżką do skryptu w tagu
-<body>szablonu twojej strony :
+ Dodaj link z odpowiednią ścieżką do skryptu w tagu 
+`<body>`szablonu twojej strony :
 
+```
 <script type="module" src="/assets/js/cookieconsent-config.js"></script>
-Najlepiej tuż przed </body>
+```
+Najlepiej tuż przed `</body>` 
 
-Następnie dodaj arkusz stylów w tagu <head>:
+Następnie dodaj arkusz stylów w tagu `<head>`:
 
+```
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
-
