@@ -85,15 +85,15 @@ permalink: /kategorie.html
 </div> </br>
 
 <div id="category-list">
-{% for category in site.categories %}
-  {% assign category_name = category | first %}
-  {% assign category_name_pretty = category_name | replace: "_", " " | capitalize %}
-  <div class="category-list">
-    <div id="#{{ category_name | slugize }}"></div>
-    <h3 class="post-list-heading line-bottom"> In {{ category_name }}: </h3>
-    <a name="{{ category_name | slugize }}"></a>
-    <ul class="post-list post-list-narrow">
-     {% for post in site.categories[category_name] %}
+    {% for category in site.categories %}
+    {% assign category_name = category | first %}
+    {% assign category_name_pretty = category_name |    replace: "_", " " | capitalize %}
+    <div class="category-list">
+     <div id="#{{ category_name | slugize }}"></div>
+     <h3 class="post-list-heading line-bottom"> In {{ category_name }}: </h3>
+     <a name="{{ category_name | slugize }}"></a>
+     <ul class="post-list post-list-narrow">
+      {% for post in site.categories[category_name] %}
      <li>
        {%- assign date_format = site.marekswitala.date_format | default: "%b %-d, %Y" -%}
        <b>
