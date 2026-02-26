@@ -74,7 +74,7 @@ Strona przeglądu kategorii
 W katalogu głównym tworzę nowy plik o nazwie kategorie.html, który wyświetla wpisy na blogu wg kategorii (podobnie jak strona wyświetlajaca strony wg tagów )
 
 Tak wygląda mój plik kategorie.html:
-```
+```liquid
 ---
 layout: page
 title: "Posty według kategorii"
