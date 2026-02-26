@@ -75,7 +75,6 @@ W katalogu głównym tworzę nowy plik o nazwie kategorie.html, który wyświetl
 
 Tak wygląda mój plik kategorie.html:
 ````
-{% raw %}
 ---
 layout: page
 title: "Posty według kategorii"
@@ -86,6 +85,7 @@ permalink: /kategorie.html
 </div> </br>
 
 <div id="category-list">
+{% raw %}
     {% for category in site.categories %}
     {% assign category_name = category | first %}
     {% assign category_name_pretty = category_name |    replace: "_", " " | capitalize %}
@@ -95,9 +95,13 @@ permalink: /kategorie.html
      <a name="{{ category_name | slugize }}"></a>
      <ul class="post-list post-list-narrow">
       {% for post in site.categories[category_name] %}
+{% endraw %}
      <li>
+{% raw %}
        {%- assign date_format = site.marekswitala.date_format | default: "%b %-d, %Y" -%}
+{% endraw %}
        <b>
+{% raw %}
          <a href="{{ post.url | relative_url }}">
            {{ post.title | escape }}
          </a>
@@ -107,8 +111,9 @@ permalink: /kategorie.html
     </ul>
   </div>
 {% endfor %}
-</div>
 {% endraw %}
+</div>
+
 ````
 
 Ten fragment kodu wykonuje następujące czynności:
