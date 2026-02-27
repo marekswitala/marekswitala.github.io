@@ -86,15 +86,15 @@ permalink: /kategorie.html
 
 <div id="category-list">
 {% raw %}
-    {% for category in site.categories %}
-    {% assign category_name = category | first %}
-    {% assign category_name_pretty = category_name |    replace: "_", " " | capitalize %}
-    <div class="category-list">
-     <div id="#{{ category_name | slugize }}"></div>
-     <h3 class="post-list-heading line-bottom"> In {{ category_name }}: </h3>
-     <a name="{{ category_name | slugize }}"></a>
-     <ul class="post-list post-list-narrow">
-      {% for post in site.categories[category_name] %}
+{% for category in site.categories %}
+{% assign category_name = category | first %}
+{% assign category_name_pretty = category_name |    replace: "_", " " | capitalize %}
+<div class="category-list">
+<div id="#{{ category_name | slugize }}"></div>
+<h3 class="post-list-heading line-bottom"> In {{ category_name }}: </h3>
+<a name="{{ category_name | slugize }}"></a>
+<ul class="post-list post-list-narrow">
+{% for post in site.categories[category_name] %}
 {% endraw %}
      <li>
 {% raw %}
@@ -102,10 +102,10 @@ permalink: /kategorie.html
 {% endraw %}
        <b>
 {% raw %}
-         <a href="{{ post.url | relative_url }}">
-           {{ post.title | escape }}
+<a href="{{ post.url | relative_url }}">
+ {{ post.title | escape }}
          </a>
-       </b> - <i>{{ post.date | date: date_format }}</i>
+  </b> - <i>{{ post.date | date: date_format }}</i>
      </li>
      {% endfor %}
     </ul>
