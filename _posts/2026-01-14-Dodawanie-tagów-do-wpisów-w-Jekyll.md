@@ -59,11 +59,8 @@ Następnym krokiem jest faktyczne wyświetlenie tego tagu na stronie wpisu. Aby 
 
 W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, dodaj kod liquid:
 
-```
-```
 <img src="{{ '/images/Screenshot_20260114-1847.png' | relative_url }}" alt="Kod liquid">
-```
-```
+
 Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive.html:
@@ -107,10 +104,13 @@ permalink: /archive.html
 </div> </br>
 
 <div id="tags-list">
+{% raw %}
 {% for tag in site.tags %}
   {% assign tag_name = tag | first %}
   {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
+{% endraw %}
   <div class="tag-list">
+{% raw %}
     <div id="#{{ tag_name | slugize }}"></div>
     <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
     <a name="{{ tag_name | slugize }}"></a>
@@ -128,6 +128,7 @@ permalink: /archive.html
     </ul>
   </div>
 {% endfor %}
+{% endraw %}
 </div>
 
 ```
