@@ -96,11 +96,11 @@ permalink: /kategorie.html
 <ul class="post-list post-list-narrow">
 {% for post in site.categories[category_name] %}
 {% endraw %}
-     <li>
+<li>
 {% raw %}
-       {%- assign date_format = site.marekswitala.date_format | default: "%b %-d, %Y" -%}
+{%- assign date_format = site.marekswitala.date_format | default: "%b %-d, %Y" -%}
 {% endraw %}
-       <b>
+ <b>
 {% raw %}
 <a href="{{ post.url | relative_url }}">
  {{ post.title | escape }}
