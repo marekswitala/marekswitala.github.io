@@ -61,6 +61,22 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 
 <img src="{{ '/images/Screenshot_20260114-1847.png' | relative_url }}" alt="Kod liquid">
 
+```liquid
+<pre>
+{% raw %}
+{%- if page.tags -%}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
+    {% endfor %}
+{%- endif -%}
+
+{% endraw %}
+</pre>
+```
+
+
 Ten kod wykonuje następujące czynności:
 
 Wyszukuje wszystkie tagi zapisane w aktualnym wpisie, dla każdego tagu wyświetla symbol „#” oraz nazwę tagu. Dodatkowo łączy każdy tag ze stroną archive.html:
