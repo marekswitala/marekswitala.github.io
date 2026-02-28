@@ -21,7 +21,7 @@ Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu m
 {%- endif -%}
 {% endraw %}
 ```
-Wszystko, co znajduje się pomiędzy {% raw %} a {% endraw %}, zostanie wyświetlone na stronie jako tekst, a nie przetworzone. 
+Wszystko, co znajduje się pomiędzy tagami `raw` a `endraw`, zostanie wyświetlone na stronie jako tekst, a nie przetworzone. 
 
 Wyświetlanie pojedynczego tagu
 
