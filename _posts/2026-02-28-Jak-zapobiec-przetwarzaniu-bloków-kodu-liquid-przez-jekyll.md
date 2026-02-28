@@ -51,6 +51,5 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 ```
 
 Kiedy ```raw``` jest przydatne?
-- Dokumentacja: Tworzenie instrukcji na stronie.
-
+- Dokumentacja: Tworzenie instrukcji na stronie.<br>
 - Konflikty składni: Gdy używasz zewnętrznych bibliotek JavaScript, które używają podwójnych nawiasów klamrowych {{ }}. 
