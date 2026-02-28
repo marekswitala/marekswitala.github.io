@@ -49,6 +49,19 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 </code>
 </pre>
 ```
+<pre>
+<code>
+{% raw %}
+{%- if page.tags -%}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
+    {% endfor %}
+{%- endif -%}
+{% endraw %}
+</code>
+</pre>
 
 Kiedy ```raw``` jest przydatne?
 - Dokumentacja: Tworzenie instrukcji na stronie.
