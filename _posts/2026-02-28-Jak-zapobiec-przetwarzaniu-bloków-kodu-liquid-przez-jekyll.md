@@ -9,7 +9,7 @@ category: jekyll
 ---
 
 Czasami chcemy udostępnić blok kodu zawierający składnię Liquid (lub innego kodu) w Jekyll. 
-Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu między tagami ```{% raw %}``` i ```{% endraw %}```:
+Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu między tagami ```{% raw %}{% raw %}{% endraw %}``` i ```{% endraw %}```:
 ``` 
 {% raw %} 
 {%- if page.tags -%}
