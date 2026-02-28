@@ -10,7 +10,7 @@ category: jekyll
 
 Czasami chcemy udostępnić blok kodu zawierający składnię Liquid (lub innego kodu) w Jekyll. 
 Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu między tagami raw i endraw:
-```liquid
+```
 {% raw %}
 {%- if page.tags -%}
     {% for tag in page.tags %}
@@ -27,7 +27,7 @@ Wyświetlanie pojedynczego tagu
 
 Możesz użyć `raw` dla pojedynczych linii, jeśli chcesz zachować czytelność kodu w pliku:
 
-````liquid
+````
 {% raw %}{% for tag in page.tags %}{% endraw %}
 ````
 
@@ -51,6 +51,6 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 </code>
 </pre>
 ```
-Kiedy {% raw %} jest przydatne?
+Kiedy ```{% raw %}``` jest przydatne?
 - Dokumentacja: Tworzenie instrukcji na stronie.
 - Konflikty składni: Gdy używasz zewnętrznych bibliotek JavaScript, które używają podwójnych nawiasów klamrowych {{ }}. 
