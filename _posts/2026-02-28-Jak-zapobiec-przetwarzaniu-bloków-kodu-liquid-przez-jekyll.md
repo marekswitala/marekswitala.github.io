@@ -10,9 +10,10 @@ category: jekyll
 
 Czasami chcemy udostępnić blok kodu zawierający składnię Liquid (lub innego kodu) w Jekyll. 
 Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu między tagami &#123;% raw %&#125; i &#123;% endraw %&#125;:
-``` 
-{% raw %} 
+
+```
 &#123;% raw %&#125;
+{% raw %} 
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -20,8 +21,8 @@ Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu m
         </a>
     {% endfor %}
 {%- endif -%}
-&#123;% endraw %&#125;
 {% endraw %}
+&#123;% endraw %&#125; 
 ```
 Wszystko, co znajduje się pomiędzy tagami `raw` a `endraw`, zostanie wyświetlone na stronie jako tekst, a nie przetworzone. 
 
