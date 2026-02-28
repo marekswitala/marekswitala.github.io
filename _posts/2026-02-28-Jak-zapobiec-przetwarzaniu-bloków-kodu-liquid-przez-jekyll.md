@@ -41,9 +41,8 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 <code>
 {% raw %}
 {%- if page.tags -%}
-    {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
-            #{{ tag }}
+{% for tag in page.tags %}{% endraw %}
+{% raw %}<a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> #{{ tag }}
         </a>
     {% endfor %}
 {%- endif -%}
