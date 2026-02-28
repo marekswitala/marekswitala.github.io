@@ -39,8 +39,10 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 ```html
 <pre>
 <code>
-{% raw %}<a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> #{{ tag }}
-        </a>{% endraw %}
+{% raw %}
+<a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> #{{ tag }}
+        </a>
+{% endraw %}
 </code>
 </pre>
 ```
