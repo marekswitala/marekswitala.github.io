@@ -62,17 +62,13 @@ W pliku post.html, w miejscu, w którym mają się wyświetlać tagi bloga, doda
 <img src="{{ '/images/Screenshot_20260114-1847.png' | relative_url }}" alt="Kod liquid">
 
 ```
-{% raw %}
-{%- if page.tags -%}
+{% raw %}{%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
             #{{ tag }}
         </a>
     {% endfor %}
-{%- endif -%}
-
-{% endraw %}
-
+{%- endif -%}{% endraw %}
 ```
 
 
