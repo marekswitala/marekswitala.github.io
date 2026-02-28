@@ -39,14 +39,8 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 ```html
 <pre>
 <code>
-{% raw %}
-{%- if page.tags -%}
-{% for tag in page.tags %}{% endraw %}
 {% raw %}<a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> #{{ tag }}
-        </a>
-    {% endfor %}
-{%- endif -%}
-{% endraw %}
+        </a>{% endraw %}
 </code>
 </pre>
 ```
