@@ -12,6 +12,7 @@ Czasami chcemy udostępnić blok kodu zawierający składnię Liquid (lub innego
 Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu między tagami &#123;% raw %&#125; i &#123;% endraw %&#125;:
 ``` 
 {% raw %} 
+&#123;% raw %&#125;
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -19,6 +20,7 @@ Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu m
         </a>
     {% endfor %}
 {%- endif -%}
+&#123;% endraw %&#125;
 {% endraw %}
 ```
 Wszystko, co znajduje się pomiędzy tagami `raw` a `endraw`, zostanie wyświetlone na stronie jako tekst, a nie przetworzone. 
@@ -28,7 +30,7 @@ Wyświetlanie pojedynczego tagu
 Możesz użyć `raw` dla pojedynczych linii, jeśli chcesz zachować czytelność kodu w pliku:
 
 ````
-{% raw %}{% for tag in page.tags %}{% endraw %}
+{% raw %} &#123;% raw %&#125; {% for tag in page.tags %} &#123;% endraw %&#125;{% endraw %}
 ````
 Zastosowanie tagów HTML ```<pre>```i```<code>```
 Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowany), zazwyczaj łączy się tagi raw z tagami HTML:
@@ -38,6 +40,7 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 <pre>
 <code>
 {% raw %}
+&#123;% raw %&#125;
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -45,6 +48,7 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
         </a>
     {% endfor %}
 {%- endif -%}
+&#123;% endraw %&#125;
 {% endraw %}
 </code>
 </pre>
