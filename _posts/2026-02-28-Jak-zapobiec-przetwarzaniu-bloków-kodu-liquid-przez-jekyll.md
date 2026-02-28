@@ -1,12 +1,12 @@
 ---
 layout: post
+render_with_liquid: false
 title: Jak zapobiec przetwarzaniu bloków kodu liquid przez jekyll
 tags:
   - jekyll
   - html
   - liquid
 category: jekyll
-render_with_liquid: false
 ---
 
 Czasami chcemy udostępnić blok kodu zawierający składnię Liquid (lub innego kodu) w Jekyll. 
@@ -39,8 +39,8 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 ```html
 <pre>
 <code>
-{% raw %}
 &#123;% raw %&#125;
+{% raw %}
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -48,8 +48,8 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
         </a>
     {% endfor %}
 {%- endif -%}
-&#123;% endraw %&#125;
 {% endraw %}
+&#123;% endraw %&#125;
 </code>
 </pre>
 ```
