@@ -30,6 +30,25 @@ Możesz użyć `raw` dla pojedynczych linii, jeśli chcesz zachować czytelno�
 ````
 {% raw %}{% for tag in page.tags %}{% endraw %}
 ````
+Zastosowanie tagów HTML ```<pre>```i```<code>```
+Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowany), zazwyczaj łączy się tagi raw z tagami HTML:
+
+
+```html
+<pre>
+<code>
+{% raw %}
+{%- if page.tags -%}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
+    {% endfor %}
+{%- endif -%}
+{% endraw %}
+</code>
+</pre>
+```
 
 Kiedy ```raw``` jest przydatne?
 - Dokumentacja: Tworzenie instrukcji na stronie.
