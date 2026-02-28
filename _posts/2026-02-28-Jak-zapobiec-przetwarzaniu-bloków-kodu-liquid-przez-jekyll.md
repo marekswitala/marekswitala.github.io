@@ -37,14 +37,11 @@ Aby kod był czytelny (wyróżniony czcionką o stałej szerokości i sformatowa
 
 
 ```html
-<pre>
-<code>
+<pre><code>
 {% raw %}
-<a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> #{{ tag }}
-        </a>
+  {{ content_for_layout }}
 {% endraw %}
-</code>
-</pre>
+</code></pre>
 ```
 Kiedy ```{% raw %}``` jest przydatne?
 - Dokumentacja: Tworzenie instrukcji na stronie.
