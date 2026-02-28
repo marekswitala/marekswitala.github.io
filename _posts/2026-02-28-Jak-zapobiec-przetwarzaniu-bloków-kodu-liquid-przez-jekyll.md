@@ -31,6 +31,6 @@ Możesz użyć `raw` dla pojedynczych linii, jeśli chcesz zachować czytelno�
 {% raw %}{% for tag in page.tags %}{% endraw %}
 ````
 
-Kiedy ```{% raw %}``` jest przydatne?
+Kiedy ```raw``` jest przydatne?
 - Dokumentacja: Tworzenie instrukcji na stronie.
 - Konflikty składni: Gdy używasz zewnętrznych bibliotek JavaScript, które używają podwójnych nawiasów klamrowych {{ }}. 
