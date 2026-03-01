@@ -14,6 +14,7 @@ Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu m
 
 ```
 {% raw %} 
+{{ "{{ "{% raw %}" }}
 {%- if page.tags -%}
     {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
@@ -21,6 +22,7 @@ Możemy wyłączyć przetwarzanie Liquid, umieszczając dowolny przykład kodu m
         </a>
     {% endfor %}
 {%- endif -%}
+{{ "{{ "{% endraw %}" }}
 {% endraw %}
 ```
 Wszystko, co znajduje się pomiędzy tagami `raw` a `endraw`, zostanie wyświetlone na stronie jako tekst, a nie przetworzone. 
