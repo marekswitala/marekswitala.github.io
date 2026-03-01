@@ -1,6 +1,6 @@
 ---
-layout: post
 render_with_liquid: false
+layout: post
 title: Jak zapobiec przetwarzaniu bloków kodu liquid przez jekyll
 tags:
   - jekyll
